@@ -1,0 +1,19 @@
+2021-04-15T08:47:40+00:00 CRITICAL Uncaught RuntimeException: Error while making 'logger': Class Tribe__Log does not exist in /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-content/plugins/the-events-calendar/common/vendor/lucatume/di52/src/tad/DI52/Container.php:356
+Stack trace:
+#0 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-content/plugins/the-events-calendar/common/vendor/lucatume/di52/src/tad/DI52/Container.php(281): tad_DI52_Container->resolve()
+#1 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-content/plugins/the-events-calendar/common/src/Tribe/Container.php(176): tad_DI52_Container->make()
+#2 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-content/plugins/the-events-calendar/common/src/Tribe/Main.php(177): tribe()
+#3 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-content/plugins/the-events-calendar/common/src/Tribe/Main.php(99): Tribe__Main->init_libraries()
+#4 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-includes/class-wp-hook.php(287): Tribe__Main->plugins_loaded()
+#5 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-includes/class-wp-hook.php(31 in /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-content/plugins/the-events-calendar/common/vendor/lucatume/di52/src/tad/DI52/Container.php on line 356
+
+2021-04-15T08:47:44+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\Forms\Classes\Recaptcha_V3_Handler' not found in /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-content/plugins/elementor-pro/modules/forms/module.php:138
+Stack trace:
+#0 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-content/plugins/elementor/core/base/module.php(83): ElementorPro\Modules\Forms\Module->__construct()
+#1 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-content/plugins/elementor-pro/core/modules-manager.php(63): Elementor\Core\Base\Module::instance()
+#2 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-content/plugins/elementor-pro/plugin.php(268): ElementorPro\Core\Modules_Manager->__construct()
+#3 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-includes/class-wp-hook.php(287): ElementorPro\Plugin->on_elementor_init()
+#4 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#5 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-includes/plugin.php(484): WP_Hook->do_action()
+#6 /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-con in /var/www/vhosts/thanhthaoatv.com/httpdocs/wp-content/plugins/elementor-pro/modules/forms/module.php on line 138
+
